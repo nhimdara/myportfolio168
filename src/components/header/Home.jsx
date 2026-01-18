@@ -16,7 +16,7 @@ const Home = () => {
   // Download CV function
   const handleDownloadCV = () => {
     // Try the root public folder first
-    const cvUrl = "/CV-Nhim-Dara.pdf";
+    const cvUrl = "cv/CV Nhim Dara.pdf";
     const link = document.createElement("a");
     link.href = cvUrl;
     link.download = "CV-Nhim-Dara.pdf";
